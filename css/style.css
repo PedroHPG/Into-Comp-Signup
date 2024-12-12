@@ -2,4 +2,19 @@
 body {
     background-image: url("../images/bg-intro-desktop.png");
     background-color: #fa8384;
+
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
    }
+
+.small-text {
+    font-size: smaller; 
+    color: lightgrey;   
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
