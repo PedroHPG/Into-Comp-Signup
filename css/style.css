@@ -14,6 +14,18 @@ body {
     color: lightgrey;   
 }
 
+.purple-box {
+    background-color: #5d54a3;
+}
+
+.white-box {
+    background-color: white;
+}
+
+.btn-success {
+    background-color: #37cc8a;
+}
+
 a {
     color: red;
     text-decoration: none;
