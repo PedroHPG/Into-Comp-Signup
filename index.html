@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <script src="js/script.js"></script>
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 <body>
@@ -28,7 +28,7 @@
         <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
       </div>
 
-      <form class="white-box rounded-3">
+      <form class="white-box rounded-3" name="free-trial-form" action="#" method="post" onsubmit="return validateForm()">
         <input type="text" class="form-control" value="First Name"><br> 
         <input type="text" class="form-control" value="Last Name"><br> 
         <input type="email" class="form-control" value="Email Address"><br> 
