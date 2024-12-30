@@ -29,10 +29,14 @@
       </div>
 
       <form class="white-box rounded-3" name="free-trial-form" action="#" method="post" onsubmit="return validateForm()">
-        <input type="text" class="form-control" value="First Name"><br> 
-        <input type="text" class="form-control" value="Last Name"><br> 
-        <input type="email" class="form-control" value="Email Address"><br> 
-        <input type="text" class="form-control" value="Password"><br> 
+        <input type="text" class="form-control" id="firstname" placeholder="First Name"><img style="display: none;" src="images/icon-error.svg" id="firstnameicon" class="erroricon"><br> 
+        <p id="firstnamewrong" style="display: none;" class="wrong">First Name cannot be empty</p>
+        <input type="text" class="form-control" id="lastname" placeholder="Last Name"><img style="display: none;" src="images/icon-error.svg" id="lastnameicon" class="erroricon"><br> 
+        <p id="lastnamewrong" style="display: none;" class="wrong">Last Name cannot be empty</p>
+        <input type="email" class="form-control" id="email" placeholder="Email Address"><img style="display: none;" src="images/icon-error.svg" id="emailicon" class="erroricon"><br> 
+        <p id="emailwrong" style="display: none;" class="wrong">Looks like this is not an email</p>
+        <input type="text" class="form-control" id="password" placeholder="Password"><img style="display: none;" src="images/icon-error.svg" id="passwordicon" class="erroricon"><br> 
+        <p id="passwordwrong" style="display: none;" class="wrong">Password cannot be empty</p>
 
         <input type="submit" class="btn btn-success" value="CLAIM YOUR FREE TRIAL">  
 
