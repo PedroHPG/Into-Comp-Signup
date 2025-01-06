@@ -49,3 +49,9 @@ a {
     color: red;
     text-decoration: none;
 }
+
+.wrong {
+    color: red;
+    font-size: x-small;
+    font-style: italic;
+}
