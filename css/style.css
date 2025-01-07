@@ -55,3 +55,8 @@ a {
     font-size: x-small;
     font-style: italic;
 }
+
+.iconwrong {
+    background: url('../images/icon-error.svg') no-repeat;
+    background-position: 97%;
+}

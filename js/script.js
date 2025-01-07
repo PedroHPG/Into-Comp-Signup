@@ -12,7 +12,7 @@ function validateForm(){
     if (!firstName) {
         aux = false;
         //change symbol
-        document.getElementById('firstnameicon').style.display = 'block';
+        document.getElementById('firstname').classList.add('iconwrong');
         //display the error text
         document.getElementById('firstnamewrong').style.display = 'block';
     }
@@ -20,7 +20,7 @@ function validateForm(){
     if (!lastName) {
         aux = false;
         //change symbol
-        document.getElementById('lastnameicon').style.display = 'block';
+        document.getElementById('lastname').classList.add('iconwrong');
         //display the error text
         document.getElementById('lastnamewrong').style.display = 'block';
     }
@@ -28,7 +28,7 @@ function validateForm(){
     if (!email) {
         aux = false;
         //change symbol
-        document.getElementById('emailicon').style.display = 'block';
+        document.getElementById('email').classList.add('iconwrong');
         //display the error text
         document.getElementById('emailwrong').style.display = 'block';        
     }
@@ -36,7 +36,7 @@ function validateForm(){
     if (!password) {
         aux = false;
         //change symbol
-        document.getElementById('passwordicon').style.display = 'block';
+        document.getElementById('password').classList.add('iconwrong');
         //display the error text
         document.getElementById('passwordwrong').style.display = 'block';        
     }
