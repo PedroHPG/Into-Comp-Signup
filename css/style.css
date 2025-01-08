@@ -54,6 +54,8 @@ a {
     color: red;
     font-size: x-small;
     font-style: italic;
+    text-align: right;
+    position: sticky;
 }
 
 .iconwrong {
